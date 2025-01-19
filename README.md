@@ -96,3 +96,41 @@ Screenshot of the changes made:
     - **Scripts (JavaScript):** 14.5%
     - **Fonts:** 0.72%
     - **Images:** 79.03%
+
+### Question 2. JavaScript Off
+
+#### **UCSD:**
+- **Visual Changes:**
+  - The layout of the homepage remained mostly intact.
+  - Some interactive elements like animations and pop-ups were missing.
+  - Static content and navigation links were visible, but functionality was limited.
+  - **Screenshot:**  
+    ![UCSD No JavaScript](screenshots/ucsdquestion3screenshot.png)
+
+- **Broken Features:**
+  - Search bar functionality did not work.
+  - Some dynamic elements such as drop-down menus and hover effects were disabled.
+  - Interactive elements like forms did not function properly.
+
+#### **Scripps:**
+- **Visual Changes:**
+  - The homepage was completely blank with no visible content.
+  - This indicates that the site relies heavily on JavaScript to load and display content.
+  - **Screenshot:**  
+    ![Scripps No JavaScript](screenshots/scrippsquestion3screenshot.png)
+
+- **Broken Features:**
+  - All content failed to load due to heavy reliance on JavaScript.
+  - The site was essentially non-functional.
+
+#### **UCLA:**
+- **Visual Changes:**
+  - The layout was partially intact, with static content visible.
+  - Dynamic elements like sliders or interactive news tiles were not operational.
+  - **Screenshot:**  
+    ![UCLA No JavaScript](screenshots/uclaquestion3screenshot.png)
+
+- **Broken Features:**
+  - Search functionality and interactive menus were non-functional.
+  - Some images and videos failed to load, affecting the visual presentation.
+  - Dynamic navigation and pop-ups were entirely disabled.
