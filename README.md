@@ -30,7 +30,7 @@ Screenshot of the homepage with my name and major included:
 6.7 MB transferred, 6.9 MB resources
 
 #### Waterfall Graph:
-![Waterfall Graph Screenshot](screenshots/Waterfallscreenshot.png)
+![Waterfall Graph Screenshot](screenshots/Waterfallgraphscreenshot.png)
 
 ### Question 3. Client-Side Inherently Insecure Demo
 
