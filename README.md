@@ -9,7 +9,7 @@
 Deployed Netlify Site URL: [https://aquamarine-kleicha-f98b3b.netlify.app](https://aquamarine-kleicha-f98b3b.netlify.app)
 
 Screenshot of the homepage with my name and major included:
-![Deployed Homepage Screenshot](homepagescreenshot.png)
+![Deployed Homepage Screenshot](screenshots/homepagescreenshot.png)
 
 ### Question 2. Chrome DevTools - Network
 
@@ -30,10 +30,10 @@ Screenshot of the homepage with my name and major included:
 6.7 MB transferred, 6.9 MB resources
 
 #### Waterfall Graph:
-![Waterfall Graph Screenshot](Waterfallscreenshot.png)
+![Waterfall Graph Screenshot](screenshots/Waterfallscreenshot.png)
 
 ### Question 3. Client-Side Inherently Insecure Demo
 
 Screenshot of the changes made:
-![Client-Side Insecure Demo Screenshot](question3screenshot.png)
+![Client-Side Insecure Demo Screenshot](screenshots/question3screenshot.png)
 
