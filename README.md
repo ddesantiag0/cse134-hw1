@@ -55,3 +55,44 @@ Screenshot of the changes made:
 - **Experience:**
   - Completing this task was both easy and hard at the same time. While the commands for skipping between headings and links were useful, I found the overall process challenging because I’m not accustomed to using a screen reader. This was a completely new experience for me, and it required a lot of focus and patience to understand how the navigation worked.
 
+## Part 3. HTTP Response Headers + Network Analysis
+
+### Question 1. HTTP Response Headers + Network Analysis
+
+#### HTTP Response Headers
+- **UCI Response Headers Screenshot (Part 1):**
+  ![UCI Response Headers Part 1](screenshots/uciheaderscreenshotpt1.png)
+- **UCI Response Headers Screenshot (Part 2):**
+  ![UCI Response Headers Part 2](screenshots/uciheaderscreenshotpt2.png)
+
+- **UCSD Response Headers Screenshot (Part 1):**
+  ![UCSD Response Headers Part 1](screenshots/ucsdheaderscreenshotpt1.png)
+- **UCSD Response Headers Screenshot (Part 2):**
+  ![UCSD Response Headers Part 2](screenshots/ucsdheaderscreenshotpt2.png)
+
+#### Analysis of HTTP Response Headers
+- **UCI**:
+  - **Positive Observations**:
+    - `Strict-Transport-Security` enforces HTTPS.
+    - `X-Frame-Options` and `X-XSS-Protection` are present, mitigating clickjacking and XSS attacks.
+  - **Potential Issues**:
+    - Missing `Content-Security-Policy` for enhanced security against XSS and other attacks.
+  - **Data Breakdown**:
+    - **Documents (HTML):** 1.04%
+    - **Stylesheets (CSS):** 3.6%
+    - **Scripts (JavaScript):** 14%
+    - **Fonts:** 0.85%
+    - **Images:** 78.1%
+
+- **UCSD**:
+  - **Positive Observations**:
+    - `Cache-Control` ensures sensitive content isn’t cached locally.
+    - `Content-Type` is properly set to `text/html; charset=UTF-8`.
+  - **Potential Issues**:
+    - Missing key security headers: `Strict-Transport-Security`, `X-Frame-Options`, and `X-XSS-Protection`.
+  - **Data Breakdown**:
+    - **Documents (HTML):** 0.93%
+    - **Stylesheets (CSS):** 4.84%
+    - **Scripts (JavaScript):** 14.5%
+    - **Fonts:** 0.72%
+    - **Images:** 79.03%
