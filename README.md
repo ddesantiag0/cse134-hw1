@@ -454,7 +454,7 @@ The UCSF website also employs **Cloudflare**, as indicated by headers like `cf-c
 
 #### Screenshots
 - **Response Headers:**
-  ![UCSF Response Headers](screenshots/ucsfresponseheaders.png)
+  ![UCSF Response Headers](screenshots/question13screenshot.png)
 
 #### Observations
 The use of the `X-Content-Type-Options` header demonstrates UCSF's effort to enforce secure practices, while leveraging Cloudflare ensures better performance and robust protection against various online threats.
